@@ -1,0 +1,77 @@
+.logo {border-radius: 50%;
+width: 100px;
+height: 100px;
+margin-right: 0px;
+}
+/* pading and buttons */
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+
+}   
+.btn2 {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.btn1 {
+    
+    margin-left: 50px;
+
+}
+.menu {
+    display: flex;
+    justify-content: center; /* i-center lahat ng button */
+    align-items: center;
+    gap: 10px; /* space ng bawat button */
+    padding: 10px 10px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ .goldbar {
+    margin-right: 50px;
+    color: black;
+    padding: 5px 15px;
+    background-color: #e6be8a;
+    border-radius: 15px;
+
+}
+.photo4 {
+  width: 1000;
+    height: 2000;
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    .logo,
+    .goldbar{
+        display:none;
+    }
+
+    .menu{
+        justify-content:center;
+        align-items:center;
+        gap:15px;
+    }
+
+    .menu a{
+        display:none;
+    }
+
+    .mobile-show{
+        display:inline-block !important;
+    }
+}
+

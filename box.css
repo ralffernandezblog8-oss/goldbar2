@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.backgroundblack {
+  background: #111;
+}
+
+
+#section1 img {
+  color: blue;
+}
+
+#section2 img {
+  color: red;
+}
+
+.container6 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-grid6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card6 {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card6:hover {
+  transform: translateY(-5px);
+}
+
+.card6 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content6 {
+  padding: 15px;
+  flex: 1;
+}
+
+.card6 h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #222;
+}
+
+.card6 p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.price6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.btn6 {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn6:hover {
+  background: #28a745;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .product-grid6 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .product-grid6 {
+    grid-template-columns: 1fr;
+  }
+
+  .card6 img {
+    height: 180px;
+  }
+
+  .card6 h3 {
+    font-size: 16px;
+  }
+
+  .card6 p {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-grid7 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+.card7 {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card7:hover {
+  transform: translateY(-5px);
+}
+
+.card7 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content6 {
+  padding: 15px;
+  flex: 1;
+}
+
+.card7 h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #222;
+}
+
+.card7 p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+
+
+.btn8 {
+  display: inline-block;
+  padding: 10px 655px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  position: center;
+}
+
+.btn8:hover {
+  background: #28a745;
+}
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gold Bar</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.logo{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:10px 15px;
+    background-color:#4CAF50;
+    color:white;
+    border-radius:5px;
+}
+
+.btn2{
+    text-decoration:none;
+    padding:10px 15px;
+    background-color:#4CAF50;
+    color:white;
+    border-radius:5px;
+}
+
+.btn1{
+    margin-left:50px;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    padding:10px;
+    background-color:black;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.goldbar{
+    margin-right:50px;
+    color:black;
+    padding:5px 15px;
+    background-color:#e6be8a;
+    border-radius:15px;
+}
+
+/* Mobile Only */
+@media screen and (max-width:768px){
+
+    .menu{
+        flex-wrap:wrap;
+        gap:5px;
+    }
+
+    /* Itago lahat ng links */
+    .menu a{
+        display:none;
+    }
+
+    /* Ipakita lang HOME at ABOUT */
+    .mobile-show{
+        display:inline-block !important;
+    }
+
+    .logo{
+        width:60px;
+        height:60px;
+    }
+
+    .goldbar h1{
+        font-size:18px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="menu">
+
+    <img src="goldbarlogo.png" class="logo" alt="Logo">
+
+    <div class="goldbar">
+        <h1>GOLD BAR</h1>
+    </div>
+
+    <a href="HOME.html" class="btn mobile-show">HOME</a>
+    <a href="ABOUT.html" class="btn mobile-show">ABOUT</a>
+
+    <a href="ROOMS.html" class="btn">ROOMS</a>
+    <a href="MENU.html" class="btn">MENU</a>
+    <a href="FACILITIES.html" class="btn">FACILITIES</a>
+    <a href="CONTACT.html" class="btn">CONTACT</a>
+
+    <a href="BOOK A ROOM.html" class="btn1 btn2">BOOK A ROOM</a>
+    <a href="BOOK A TABLE.html" class="btn2">BOOK A TABLE</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Footer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+footer{
+    background: black;
+    color:white;
+    padding:50px 10%;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer-info{
+    line-height:2;
+    font-size:18px;
+}
+
+.footer-contact{
+    line-height:2;
+    font-size:18px;
+}
+
+.social-icons{
+    display:flex;
+    gap:20px;
+    font-size:35px;
+}
+
+.social-icons a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#cfcfcf;
+}
+
+@media(max-width:768px){
+    .footer-container{
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+    }
+}
+</style>
+</head>
+<body>
+
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-info">
+            <p>Bag-ong Lungsod, Tandag City ,</p>
+            <p>Surigao del Sur</p>
+            <p>Philippines</p>
+        </div>
+
+        <div class="footer-contact">
+            <p>ralffernandezblog10@gmail.com</p>
+            <p>09630722717</p>
+        </div>
+
+        <div class="social-icons">
+            
+            <a href="https://www.facebook.com/profile.php?id=61590305293188"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
